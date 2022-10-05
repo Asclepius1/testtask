@@ -73,4 +73,4 @@ df = pandas.DataFrame({
     'расширение файла':all_res_ft
 })
 
-df.to_excel(excel_writer=path_to_xl, index=True)
+df.to_excel(excel_writer=path_to_xl, index=False)
